@@ -32,8 +32,6 @@ TEST<br>
 
 Title
 ---
-
-
 ```
 TEST
 TEST
