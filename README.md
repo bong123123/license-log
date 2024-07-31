@@ -13,5 +13,5 @@
 |-|
 
 |ROOF|
-|BODY|
+|-|
 |FLOOR|
