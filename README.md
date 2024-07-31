@@ -23,7 +23,7 @@
 
 |IMAGE|
 |-|
-|<width = 10 height = 10>![download](https://github.com/user-attachments/assets/9e743624-479e-4982-94dd-1addd636d79e)|
+|<img width = 10 height = 10 src=https://github.com/user-attachments/assets/9e743624-479e-4982-94dd-1addd636d79e>|
 
 
 
