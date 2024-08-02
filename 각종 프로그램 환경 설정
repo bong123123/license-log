@@ -20,3 +20,10 @@
 4.생성된 Project의 src > main > webapp > web-inf > lib에
 C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib의 jsp-api,servlet-api파일을 복사,붙여넣기
 JSP File생성
+
+#MySQL
+install wizard 설치 후 실행
+보통 mysql 접속 프로그램(command line client) 가 있지만 없을 때도 있음.
+CMD를 통해 실행하려면 환경변수를 설정해주어야함. 이는 위의 JAVA 환경변수 설정과 동일
+C:\Program Files\MySQL\MySQL Server 8.0\bin를 시스템 변수의 path에 추가해주면됨
+그 후, CMD에서 mysql -u root -p 명령어로 패스워드 입력 후 접속가능
