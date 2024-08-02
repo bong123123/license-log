@@ -1,0 +1,22 @@
+# JAVA
+1. Open JDK 또는 Oracle에서 본인 환경에 맞는 ver Java파일 다운로드
+2. 환경변수 설정 : Window + R => sysdm.cpl 실행 후 고급탭, 환경변수 설정
+3. 시스템 변수 > Path 편집 > 새로만들기 (파일이름 : 자바경로) > 최상단으로 이동
+4. CMD -> Java -version으로 제대로 경로가 설정되었는지 확인
+
+# Eclipse
+1. Eclipse 다운로드 후 실행 
+2. Window > Preferences > General > Workspace > Text file Encoding에서 유니코드 설정확인
+3. Web탭 또는 files검색 > CSS files, HTML files, JSP files의 Encoding 유니코드 설정확인
+
+# Apache TomCat
+1. TomCat 다운로드 후 설치파일 실행 > 경로설정 주의(Admin경로의 경우 탐색하지 못할 수 있으므로 C:에 Jdk파일을 두고 경로설정)
+2. Window + R => services.msc 실행 후 Apache TomCat 시작, 브라우저에서 localhost:8080 들어가면 정상 작동 확인 가능
+
+# Eclipse에서 ApacheTomCat 연동하기
+1.Eclipse > File > New > Other > Server검색 > Apache > 설치한 Tomcat버전에 맞게 선택
+2.하단 Terminal이 있는 탭에 server탭에서 새로 생성한 server 확인가능, 생성한 server 더블클릭 후, 우측 admin port수정
+3.프로젝트 생성 > Dynamic Web Project로 생성 > Target Runtime에서 설치한 Apache Tomcat 선택 후 생성
+4.생성된 Project의 src > main > webapp > web-inf > lib에
+C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib의 jsp-api,servlet-api파일을 복사,붙여넣기
+JSP File생성
